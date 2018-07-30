@@ -1,3 +1,4 @@
 theme: jekyll-theme-slate
 title: Gal's data science blog
-description: Python tips and tricks
+description: Python tips & tricks for use in data science projects.
+google_analytics: UA-123065321-1
