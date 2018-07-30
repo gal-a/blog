@@ -1,3 +1,16 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-123065321-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-123065321-1');
+</script>
+
+## Intro
+Greetings! My name is Gal Arav and this is a place for me to share data science resources together with simple examples of how to use. In particular, I've found the following libraries to be very useful: sklearn, tensorflow, keras, matplotlib, nltk, scipy, numpy and pandas.
+
 ## Notebooks
 
 ### Pandas I
