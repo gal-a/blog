@@ -1,1 +1,4 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-slate
+title: Gal's data science blog
+description: Python tips & tricks for use in data science projects. Libraries include: pandas, scikit-learn, scipy, matplotlib
+google_analytics: UA-123065321-1
