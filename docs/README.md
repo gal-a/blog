@@ -9,7 +9,7 @@
 </script>
 
 ## Intro
-Greetings! My name is Gal Arav and this is a place for me to share data science resources together with simple examples of how to use. In particular, I've found the following libraries to be very useful: sklearn, tensorflow, keras, matplotlib, nltk, scipy, numpy and pandas.
+Greetings! My name is Gal Arav and this is a place for me to share data science resources together with simple examples of how to use them. In particular, I've found the following libraries to be very useful: sklearn, tensorflow, keras, matplotlib, nltk, scipy, numpy and pandas.
 
 ## Notebooks
 
@@ -21,7 +21,7 @@ Greetings! My name is Gal Arav and this is a place for me to share data science 
 
 ### Pandas II
 <a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/pandas/pandas_handle_missing_data.ipynb" target="_blank">Handle missing data</a>  
-<a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/pandas/pandas_convert_types.ipynb" target="_blank">Convert types</a> 
+<a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/pandas/pandas_convert_types.ipynb" target="_blank">Convert types</a>   
 <a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/pandas/pandas_groupby.ipynb.ipynb" target="_blank">Group by</a>  
 <a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/pandas/pandas_agg.ipynb" target="_blank">Aggregate</a>  
 <a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/pandas/pandas_datetime.ipynb" target="_blank">DateTime</a>  
