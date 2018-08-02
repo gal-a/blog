@@ -9,7 +9,7 @@
 </script>
 
 ## Intro
-Greetings! My name is Gal Arav and this is a place for me to share data science resources together with simple examples of how to use them. In particular, I've found the following libraries to be very useful: sklearn, tensorflow, keras, matplotlib, nltk, scipy, numpy and pandas.
+Welcome to my new blog! This is a place for me to share data science resources, where I try to provide example code for the most common use cases, useful bits and bytes that I want to remind myself without having to search all over the web. In particular, I've found the following libraries to be very useful: sklearn, tensorflow, keras, matplotlib, nltk, scipy, numpy and pandas. Stay tuned as I continue to add more stuff ~Gal
 
 ## Notebooks
 
@@ -32,7 +32,7 @@ Greetings! My name is Gal Arav and this is a place for me to share data science 
 <a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/plot/plot_seaborn_heatmap.ipynb" target="_blank">Seaborn heatmap</a>  
 <a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/plot/plot_seaborn_distplots.ipynb" target="_blank">Seaborn distplots</a>  
 <a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/plot/plot_boxplot.ipynb" target="_blank">Pandas boxplot</a>  
-<a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/plot/plot_interpolate.ipynb" target="_blank">Scipy interpolate</a>   
+<a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/plot/plot_interpolate.ipynb" target="_blank">Scipy interpolate</a>  
 
 ### Miscellaneous
 <a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/misc/list_comprehensions.ipynb" target="_blank">List comprehensions</a>  
