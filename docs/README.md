@@ -31,7 +31,8 @@ Welcome to my new blog! This is a place for me to share data science resources w
 <a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/plot/plot_seaborn_heatmap.ipynb" target="_blank">Seaborn heatmap</a>  
 <a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/plot/plot_seaborn_distplots.ipynb" target="_blank">Seaborn distplots</a>  
 <a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/plot/plot_boxplot.ipynb" target="_blank">Pandas boxplot</a>  
-<a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/plot/plot_interpolate.ipynb" target="_blank">Scipy interpolate</a>  <a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/plot/plot_quantile_quantile_plots.ipynb" target="_blank">Q-Q plots</a>  
+<a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/plot/plot_interpolate.ipynb" target="_blank">Scipy interpolate</a>  
+<a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/plot/plot_quantile_quantile_plots.ipynb" target="_blank">Q-Q plots</a>  
 
 ### Miscellaneous
 <a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/misc/list_comprehensions.ipynb" target="_blank">List comprehensions</a>  
