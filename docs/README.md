@@ -40,5 +40,7 @@ Welcome to my new blog! This is a place for me to share data science resources w
 <a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/misc/numpy_basics.ipynb" target="_blank">Numpy basics</a>  
 <a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/sklearn/sklearn_precision_recall_vs_roc_curves.ipynb" target="_blank">Precision-Recall vs ROC curves</a>  
 
-### Machine Learning
+### Machine Learning Use Cases  
+<a href="https://github.com/gal-a/blog/blob/master/docs/notebooks/sklearn/sklearn_logistic_regression_vs_gbm.ipynb" target="_blank">Breast Cancer Data: Univariate and Paired Feature Reduction, Logistic Regression vs GBM Comparison, Percentile Bins Analysis</a>  
+
 [TBD]
