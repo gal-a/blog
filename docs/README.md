@@ -9,7 +9,7 @@
 </script>
 
 ## Intro
-Welcome to my new blog! This is a place for me to share data science resources where I will try to provide simple examples of common use cases. In particular, I've found the following libraries to be very useful: sklearn, tensorflow, keras, matplotlib, nltk, scipy, numpy and pandas. Stay tuned as I continue to add more stuff ~Gal
+Welcome to my new blog! This is a place for me to share data science resources where I will try to provide lots of **simple examples directly in Google Colab** so that you can easily copy and test out common use cases. In particular, I've found the following libraries to be very helpful: sklearn, tensorflow, keras, matplotlib, nltk, scipy, numpy and pandas. Stay tuned as I continue to add more stuff ~Gal
 
 ## Notebooks
 
