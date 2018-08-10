@@ -46,6 +46,6 @@ Welcome to my new blog! This is a place for me to share data science resources w
 2. Paired feature reduction (for each highly correlated pair, use only the feature that correlates better with the target).
 3. Compare two different model types (Logistic Regression and GBM), including the testing and ranking of feature importance.
 4. Calculate percentile bins for each model in order to analyze the ratio of positive classes for each percentile bin.
-5. Plot ROC and Precision curves.
+5. Plot ROC and Precision-Recall curves.
 
 [TBD]
