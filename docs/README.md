@@ -32,7 +32,7 @@ Stay tuned as I continue to add more Machine Learning examples ~Gal, August 2018
 
 ### Plotting Data
 <a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/plot/plot_scatter_for_EDA.ipynb" target="_blank">Scatter plots for EDA</a>  
-<a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/nlp/plot_kmeans.ipynb" target="_blank">Plot K-means clusters</a>  
+<a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/plot/plot_kmeans.ipynb" target="_blank">K-means clusters</a>  
 <a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/plot/plot_seaborn_heatmap.ipynb" target="_blank">Seaborn heatmap</a>  
 <a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/plot/plot_seaborn_distplots.ipynb" target="_blank">Seaborn distplots</a>  
 <a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/plot/plot_boxplot.ipynb" target="_blank">Pandas boxplot</a>  
