@@ -9,11 +9,11 @@
 </script>
 
 ## Intro
-Welcome to my new blog! This is a place for me to share Data Science resources where I will try to provide lots of **simple python examples directly in Google Colab** so that you can easily test common use cases. In particular, I will be focusing on the following libraries: sklearn, tensorflow, keras, matplotlib, nltk, scipy, numpy and pandas.  
+Welcome to my new blog! This is a place for me to share Data Science resources where I will try to provide lots of **simple python examples directly in Google Colab**. In particular, I will be focusing on the following libraries: sklearn, tensorflow, keras, matplotlib, nltk, scipy, numpy and pandas.  
 
 **NEW:** Non-supervised text classification using TF-IDF method (scroll down to bottom of this page).  
 
-Stay tuned as I continue to add more Machine Learning examples ~Gal, August 2018  
+Stay tuned as I continue to add more Machine Learning examples ~Gal, August 2018.  
 
 ## Notebooks
 
@@ -66,5 +66,3 @@ Stay tuned as I continue to add more Machine Learning examples ~Gal, August 2018
 (vi) Build a word cloud from the weighted word counts  
 3. Dimensionality Reduction using PCA  
 4. Calculate K-means clusters (unsupervised classification)  
-
-[TBD]
