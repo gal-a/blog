@@ -40,6 +40,8 @@ Stay tuned as I continue to add more Machine Learning examples ~Gal, August 2018
 <a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/plot/plot_quantile_quantile_plots.ipynb" target="_blank">Scipy Q-Q plots</a>  
 
 ### Miscellaneous
+<a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/misc/class_framework_in_notebooks_1_of_2.ipynb" target="_blank">Setup a class framework for use in notebooks, part 1 of 2</a>  
+<a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/misc/class_framework_in_notebooks_2_of_2.ipynb" target="_blank">Setup a class framework for use in notebooks, part 2 of 2</a>  
 <a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/nlp/nltk_preprocess.ipynb" target="_blank">Process text files</a>  
 <a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/misc/html_extracting_table_data.ipynb" target="_blank">Extracting table data from the web</a>  
 <a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/misc/list_comprehensions.ipynb" target="_blank">List comprehensions</a>  
