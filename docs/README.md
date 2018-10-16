@@ -9,11 +9,12 @@
 </script>
 
 ## Intro
-Welcome to my new blog! This is a place for me to share Data Science resources where I will try to provide lots of **simple python examples directly in Google Colab**. In particular, I will be focusing on the following libraries: sklearn, tensorflow, keras, matplotlib, nltk, scipy, numpy and pandas.  
+Welcome to my new blog! This is a place for me to share Data Science resources where I aim to provide lots of **simple python examples directly in Google Colab**.
 
-**NEW:** Non-supervised text classification using TF-IDF method (scroll down to bottom of this page).  
+**NEW:** <a href="https://github.com/gal-a/blog/tree/master/docs/notebooks/nlp/nlp_tf-idf_clustering_post.md" target="_blank">Comparing the performance of non-supervised vs supervised learning methods for NLP text classification</a> 
 
-Stay tuned as I continue to add more Machine Learning examples ~Gal, October 2018.  
+If you have a cool data science project that you'd like to discuss (ideally, over a beer), feel free to reach out and connect via LinkedIn:**
+https://il.linkedin.com/in/galarav
 
 ## Notebooks
 
@@ -48,15 +49,15 @@ Stay tuned as I continue to add more Machine Learning examples ~Gal, October 201
 <a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/misc/numpy_basics.ipynb" target="_blank">Numpy basics</a>  
 <a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/sklearn/sklearn_precision_recall_vs_roc_curves.ipynb" target="_blank">Precision-Recall vs ROC curves</a>  
 
-### Machine Learning - Example walkthroughs (python notebooks)
-<a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/sklearn/sklearn_logistic_regression_vs_gbm.ipynb" target="_blank">Breast cancer prediction</a>  - demonstrates the following techniques:
+### Machine Learning - Example walkthroughs
+<a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/sklearn/sklearn_logistic_regression_vs_gbm.ipynb" target="_blank">Breast cancer prediction</a>  -  python notebook that demonstrates the following techniques:
 1. Univariate feature reduction (remove low correlations with the target).
 2. Feature reduction based on collinearity (for each highly correlated pair of features, leave only the feature that correlates better with the target value).
 3. Compare two different model types for supervised learning (Logistic Regression and GBM), including the testing and ranking of feature importance.
 4. Calculate percentile bins for each model in order to determine the ratio of positive classes for each percentile bin.
 5. Plot ROC and Precision-Recall curves. 
 
-<a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/nlp/nlp_tf-idf_clustering.ipynb" target="_blank">TF-IDF based topic clustering using PCA with K-means, NMF, LDA</a>  - demonstrates the following techniques:
+<a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/nlp/nlp_tf-idf_clustering.ipynb" target="_blank">TF-IDF based topic clustering using PCA with K-means, NMF, LDA</a>  - python notebook that demonstrates the following techniques:
 
 1. Vectorize text to a numeric matrix using TF-IDF (Term Frequency - Inverse Document Frequency)
 2. Dimensionality Reduction using PCA
@@ -66,7 +67,6 @@ Stay tuned as I continue to add more Machine Learning examples ~Gal, October 201
 
 ### Article for the above python notebook:
 <a href="https://github.com/gal-a/blog/tree/master/docs/notebooks/nlp/nlp_tf-idf_clustering_post.md" target="_blank">Comparing the performance of non-supervised vs supervised learning methods for NLP text classification</a>
-
 
 Copyright © Gal Arav, 2018
 
