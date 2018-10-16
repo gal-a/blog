@@ -65,7 +65,7 @@ Stay tuned as I continue to add more Machine Learning examples ~Gal, October 201
 5. Unsupervised classification: Calculate LDA (Latent Derilicht Analysis) based on TF
 
 ### Article for the above python notebook:
-<a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/nlp/nlp_tf-idf_clustering_post.md" target="_blank">Comparing the performance of non-supervised vs supervised learning methods for NLP text classification</a>
+<a href="https://github.com/gal-a/blog/tree/master/docs/notebooks/nlp/nlp_tf-idf_clustering_post.md" target="_blank">Comparing the performance of non-supervised vs supervised learning methods for NLP text classification</a>
 
 
 Copyright © Gal Arav, 2018
