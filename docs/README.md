@@ -14,7 +14,8 @@ Welcome to my new blog! This is a place for me to share Data Science resources w
 **NEW:** <a href="https://github.com/gal-a/blog/tree/master/docs/notebooks/nlp/nlp_tf-idf_clustering_post.md" target="_blank">Comparing the performance of non-supervised vs supervised learning methods for NLP text classification</a> 
 
 If you have a cool data science project that you'd like to discuss (ideally, over a beer), feel free to reach out and connect via LinkedIn:**
-https://il.linkedin.com/in/galarav
+<a href="https://il.linkedin.com/in/galarav" target="_blank">
+
 
 ## Notebooks
 
@@ -68,5 +69,5 @@ https://il.linkedin.com/in/galarav
 ### Article for the above python notebook:
 <a href="https://github.com/gal-a/blog/tree/master/docs/notebooks/nlp/nlp_tf-idf_clustering_post.md" target="_blank">Comparing the performance of non-supervised vs supervised learning methods for NLP text classification</a>
 
+<a href="https://il.linkedin.com/in/galarav" target="_blank">
 Copyright © Gal Arav, 2018
-
