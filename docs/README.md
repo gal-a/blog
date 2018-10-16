@@ -13,9 +13,9 @@ Welcome to my new blog! This is a place for me to share Data Science resources w
 
 **NEW:** <a href="https://github.com/gal-a/blog/tree/master/docs/notebooks/nlp/nlp_tf-idf_clustering_post.md" target="_blank">Comparing the performance of non-supervised vs supervised learning methods for NLP text classification</a> 
 
-If you have a cool data science project that you'd like to discuss (ideally, over a beer), feel free to reach out and connect via LinkedIn:**
-<a href="https://il.linkedin.com/in/galarav" target="_blank">
+If you have a cool data science project that you'd like to discuss (ideally, over a beer), feel free to reach out and connect <a href="https://il.linkedin.com/in/galarav" target="_blank">connect on LinkedIn</a>
 
+---
 
 ## Notebooks
 
@@ -50,6 +50,8 @@ If you have a cool data science project that you'd like to discuss (ideally, ove
 <a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/misc/numpy_basics.ipynb" target="_blank">Numpy basics</a>  
 <a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/sklearn/sklearn_precision_recall_vs_roc_curves.ipynb" target="_blank">Precision-Recall vs ROC curves</a>  
 
+---
+
 ### Machine Learning - Example walkthroughs
 <a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/sklearn/sklearn_logistic_regression_vs_gbm.ipynb" target="_blank">Breast cancer prediction</a>  -  python notebook that demonstrates the following techniques:
 1. Univariate feature reduction (remove low correlations with the target).
@@ -69,5 +71,8 @@ If you have a cool data science project that you'd like to discuss (ideally, ove
 ### Article for the above python notebook:
 <a href="https://github.com/gal-a/blog/tree/master/docs/notebooks/nlp/nlp_tf-idf_clustering_post.md" target="_blank">Comparing the performance of non-supervised vs supervised learning methods for NLP text classification</a>
 
-<a href="https://il.linkedin.com/in/galarav" target="_blank">
+---
+
+<a href="https://il.linkedin.com/in/galarav" target="_blank">Connect on LinkedIn</a>
+
 Copyright © Gal Arav, 2018
