@@ -13,7 +13,7 @@ by Gal Arav M.Sc.
 
 ## Input data
 
-The input data is extracted from a subset of internet newsgroups available in the scikit learn library, shown below are the word clouds of 'hot topics' within newsgroups emphasizing the most popular topics per newsgroup.
+The input data is extracted from a subset of 4 internet newsgroups available in the scikit learn library. Shown below are the word clouds of 'hot topics' within these newsgroups emphasizing the most popular topics per newsgroup.
 
 ### Atheism newsgroup word cloud:
 
@@ -34,11 +34,11 @@ The input data is extracted from a subset of internet newsgroups available in th
 
 ## Motivation
 
-**Our goal is to accurately classify text documents by comparing the performance metrics of unsupervised learning methods versus existing performance measures of supervised learning methods.**
+**Our goal is to accurately classify text documents and compare the performance metrics for unsupervised learning methods versus existing performance metrics for supervised learning methods.**
 
-We will compare the performance measures for the following non-supervised methods: K-means, NMF and LDA methods against these supervised methods: Multinomial Naive Bayes and Linear Support Vector Machine (SVM) methods.
+We will compare the performance metrics for the following non-supervised methods: K-means, NMF and LDA methods against these supervised methods: Multinomial Naive Bayes and Linear Support Vector Machine (SVM) methods.
 
-Performance metrics for the supervised methods are detailed in scikit learn's documentation and we use them as a baseline reference (to ensure that we compare apples to apples, we will evaluate performance metrics on the exact same **test dataset** that was analysed here):  
+Performance metrics for the supervised methods are detailed in scikit learn's documentation and we use them as a baseline reference. To ensure that we compare apples to apples, we will evaluate performance metrics on the exact same **test dataset** that was analysed here:  
 http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
 
 
