@@ -75,4 +75,4 @@ If you have a cool data science project that you'd like to discuss (ideally, ove
 
 <a href="https://il.linkedin.com/in/galarav" target="_blank">Connect on LinkedIn</a>
 
-Copyright © Gal Arav, 2018
+Copyright © Gal Arav, 2019
