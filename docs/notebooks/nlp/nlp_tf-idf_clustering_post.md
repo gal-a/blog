@@ -5,9 +5,9 @@ by Gal Arav M.Sc.
 
 1. Definitions of the terms used in this article are included at the end.
 
-2. The accompanying <a href="https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/nlp/nlp_tf-idf_clustering.ipynb" target="_blank">python notebook</a> is hosted at Google Colab.
+2. The accompanying [python notebook is hosted at Google Colab](https://colab.research.google.com/github/gal-a/blog/blob/master/docs/notebooks/nlp/nlp_tf-idf_clustering.ipynb)
 
-1. This is my first article at **Towards Data Science** and I look forward to any feedback or questions, my blog is at: http://gal-a.com/
+3. This is my first article on Medium and I look forward to any feedback or questions, my blog is at: http://gal-a.com/
 
 ![](./nlp_images/hot_peppers.jpg)
 
@@ -36,9 +36,9 @@ The input data is extracted from a subset of 4 internet newsgroups available in 
 
 **Our goal is to accurately classify text documents and compare the performance metrics for unsupervised learning methods versus existing performance metrics for supervised learning methods.**
 
-We will compare performance metrics for the following non-supervised methods: K-means, NMF and LDA methods against these supervised methods: Multinomial Naive Bayes and Linear Support Vector Machine (SVM) methods.
+We will compare the performance metrics for the following non-supervised methods: K-means, NMF and LDA methods against these supervised methods: Multinomial Naive Bayes and Linear Support Vector Machine (SVM) methods.
 
-Performance metrics for the supervised methods are detailed in scikit learn's documentation and we use them as a baseline reference. To ensure that we compare apples to apples, **we will evaluate performance metrics on the exact same test dataset** that was analysed here:  
+Performance metrics for the supervised methods are detailed in scikit learn's documentation and we use them as a baseline reference. To ensure that we compare apples to apples, we will evaluate performance metrics on the exact same **test dataset** that was analysed here:  
 http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
 
 
@@ -54,7 +54,7 @@ Before we can apply the machine learning methods, we need to 'clean up' the text
 
 **Lemmatizer** algorithms are more complicated and take into consideration the morphological analysis of the words by using detailed dictionaries which the algorithm can look through to link the form back to its lemma.
 
-Below are 3 example lists of nouns extracted from the original sentences. There are problems here that would require more intricate pre-processing, but they are sufficiently accurate for us to progress with (and as shown earlier, the word clouds nicely reflect each of the 4 newsgroups). The original sentences:
+Below are 3 example lists of nouns extracted from the original sentences. They are by no means perfect and require more intricate pre-processing, but they are sufficiently accurate for us to progress with (and as shown earlier, the word clouds nicely reflect each of the 4 newsgroups). The original sentences:
 
 ```
 * If someone >>>was bitten, how soon would medical treatment be needed, and what would >>>be liable to happen to the person?
@@ -67,7 +67,7 @@ Below are 3 example lists of nouns extracted from the original sentences. There 
 --> Nouns: conclusion comparison roman canon place century
 ```
 
-Note that nltk's default POS implementation is far from perfect and there are various other POS implementations to experiment with (e.g. HunPos, Stanford POS, Senna). Here we see that for the above sentences, the word 'bitten' is incorrectly classified as a noun although it is actually the past participle of 'bite' (a verb).
+Note that nltk's default POS implementation is not perfect and there are various other POS implementations to experiment with (e.g. HunPos, Stanford POS, Senna). Here we see that for the above sentences, the word 'bitten' is incorrectly classified as a noun although it is actually the past participle of 'bite' (a verb).
 
 Machine learning models require a numerical representation of the input data and therefore we need to transform the text to a numerical format before we can apply the learning models. The most popular method used to transform text documents to a numerical representation is known as **TF-IDF**, **'Term Frequency - Inverse Document Frequency'**, and despite its long name it is quite easy to understand. **Simply put, TF-IDF is a numerical table for how often a term appears in a specific document normalized by how often it appears in all the documents in the corpus.**
 
@@ -79,7 +79,7 @@ Once the pre-processing is completed, it is helpful to plot a histogram of the t
 
 ![](./nlp_images/histogram_doc_lengths.png)
 
-Note the last bin represents a spike of nearly 40 counts (at document length = 1200) since this value was used for the maximum document length.
+Note the last bin represents a spike of nearly 40 counts (at document length = 1200)since this value was used for the maximum document length.
 
 Here is a summary of the pre-processing steps that can be run in the accompanying notebook (using the sklearn library):
 
@@ -232,7 +232,7 @@ original bag of words matrix into two separate ones:
 
 Using the least errors method, the multiplication of these two derived matrices is
 as close as possible equal to the original term
-frequencies.
+frequencies
 
 While K-means can provide a good overall segmentation, the main advantage of
 using alternative clustering methods, such as NMF and LDA, is that these methods
@@ -281,7 +281,7 @@ Ordered confusion matrix:
  [ 32  45 315   4]
  [102  10  12 274]]
 ```
-Compared to the best results for the supervised method (achieved for the Linear SVM):
+as compared to the best results for the supervised method (achieved for the Linear SVM):
 
 ```
 http://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html
@@ -310,13 +310,13 @@ That's not bad given that we are using an Unsupervised Learning method!
 
 
 ## Summary
-* **Without 'peeking' at the class labels, we were able to get scores of just over 0.8 for mean precision, recall and f1-score using LDA for Unsupervised Learning. This compares to scores just over 0.9 using a Linear Support Vector Machine (SVM) classifier for a Supervised Learning method that trained on the actual class labels.**
+* Without 'peeking' at the class labels, we were able to get scores of just over 0.8 for mean precision, recall and f1-score using LDA for Unsupervised Learning. This compares to scores just over 0.9 using a Linear Support Vector Machine (SVM) classifier for a Supervised Learning method that trained on the actual class labels.
 
 * In general, all the algorithms faired better in their ability to pick out the 'comp.graphics' newsgroup (i.e. this newsgroup was least confused with other newsgroups).
 
 * The most confusion occurred between the similar 'alt.atheism' and 'soc.religion.christian' newsgroups - as we would expect.
 
-The accompanying python notebook demonstrates the following techniques in the context of NLP (Natural Language Processing) using python's sklearn library:
+The python notebook demonstrated the following techniques in the context of NLP (Natural Language Processing) using python's sklearn library:
 
 * Vectorize text to a numeric matrix using TF-IDF (Term Frequency - Inverse Document Frequency)
 
@@ -390,7 +390,9 @@ distributions.
 
 ### Unsupervised Learning performance metrics:
 
-**Note**: Whereas in Supervised Learning we obtain a direct mapping between the ground truth class vector and a predicted class vector, in Unsupervised Learning, we have no way of predicting the absolute class id and instead we obtain predictions for the relative class ids. For example, a sample containing a ground truth of 3 different class labels {0,1,2} may result in a predicted assignment of any one of 6 different permutations labelled: {0,1,2} or {0,2,1} or {1,0,2} or {1,2,0} or {2,0,1} or {2,1,0} and we are interested in the quality of the metrics of the 'best' permutation relative to the ground truth.
+**Note**: Whereas in Supervised Learning we obtain a direct mapping between the ground truth class vector and a predicted class vector, in Unsupervised Learning, we have no way of predicting the absolute class id and instead we obtain predictions for the relative class ids. For example, a sample containing a ground truth of 3 different class labels {0,1,2} may result in a predicted assignment of any one of 6 different permutations labelled:  
+{0,1,2} or {0,2,1} or {1,0,2} or {1,2,0} or {2,0,1} or {2,1,0}  
+and we are interested in the quality of the metrics of the 'best' permutation relative to the ground truth.
 
 **Adjusted Mutual Information Score**: Mutual Information is a function that measures the agreement of the two assignments, ignoring permutations. Two different normalized versions of this measure are available, Normalized Mutual Information(NMI) and Adjusted Mutual Information(AMI). NMI is often used in the literature while AMI was proposed more recently and is normalized against chance.
 
